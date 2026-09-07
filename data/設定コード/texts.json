@@ -1,0 +1,16 @@
+{
+  "texts": [
+    {
+      "label": "WiFiパスワード",
+      "text": "2024WiFi@Security#Pass"
+    },
+    {
+      "label": "FTPアクセス",
+      "text": "ftp://user:password@ftp.example.com"
+    },
+    {
+      "label": "APIキー",
+      "text": "sk_live_abc123def456ghi789"
+    }
+  ]
+}
