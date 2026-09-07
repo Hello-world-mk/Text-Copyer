@@ -3,21 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Text Copyer</title>
+    <title>特殊記号コピーツール</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>テキストコピーツール</h1>
+        <div class="header">
+            <h1>🔤 特殊記号コピーツール</h1>
+            <p class="subtitle">よく使う特殊記号をワンクリックでコピー</p>
+        </div>
         
         <div class="category-selector">
-            <label for="category-select">カテゴリを選択:</label>
             <select id="category-select">
-                <option value="">-- カテゴリを選択してください --</option>
+                <option value="">📂 カテゴリを選択</option>
             </select>
         </div>
 
+        <div id="search-container" class="search-container">
+            <input 
+                type="text" 
+                id="search-input" 
+                placeholder="記号を検索..."
+                autocomplete="off"
+            >
+        </div>
+
         <div id="text-buttons" class="button-container"></div>
+        
+        <div id="copy-notification" class="copy-notification"></div>
     </div>
 
     <script src="script.js"></script>
